@@ -6,7 +6,7 @@
 
 **Інструменти:** SQL (PostgreSQL, DBeaver)  |  Python (pandas, numpy, matplotlib, seaborn, scikit-learn)  |  Google Colab 
 
-[Google Colaboratory](https://colab.research.google.com/drive/1Yl7SElDgnyCj_AD_QA9jGXtTgbAxyG7F?usp=sharing) | [Ноутбук у репозиторії] ()
+[SQL-запити](sql/) | [Google Colaboratory](https://colab.research.google.com/drive/1Yl7SElDgnyCj_AD_QA9jGXtTgbAxyG7F?usp=sharing) | [Ноутбук у репозиторії](colab/nmt_analysis.ipynb)
 
 ---
 ## Дані
@@ -81,22 +81,22 @@
 ## Візуалізації
 
 Розподіл за статтю
-(images/sex_type_distribution.png)
+[sex_distribution](images/sex_type_distribution.png)
 Розподіли майже збігаються, стать практично не впливає на бал.
 
 Розподіл за типом місцевості.
-(images/ter_type_distribution.png)
+[ter_distribution](images/ter_type_distribution.png)
 Учні сільських закладів мають нижчі бали.
 
 Розподіл за типом закладу.
-(images/eo_type_distribution.png)
+[eo_distribution(images/eo_type_distribution.png)
 Учні категорії «Інші» мають вищі результати, а випускники минулих років нижчі.
 
 Важливість ознак у моделі Random Forest
-(images/feature_importances.png)
+[feature](images/feature_importances.png)
 
 Розподіл середніх балів за роками
-(images/results_distribution.png)
+[distribution](images/results_distribution.png)
 Показує спад у середніх балах.
 
 ## Обмеження та подальші кроки
@@ -112,8 +112,8 @@
 ```
 analysis-of-NMT-results/
 ├── README.md
-├── sql/ # SQL-запити
-├── colaboratory/ # Google Colaboratory файл
+├── sql/    # SQL-запити
+├── colab/  # Google Colaboratory файл
 └── images/ # скриншоти для README
 ```
 
